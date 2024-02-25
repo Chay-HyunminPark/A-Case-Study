@@ -69,10 +69,3 @@ t_test <- t.test(true_data, mu = 0, alternative = "greater")
 # print(t_test)
 
 ```
-\newpage
-
-# References
-
----
-nocite: '@*'
----
