@@ -8,6 +8,8 @@ bibliograph: references.bib
 editor: visual
 abstract: "In this paper, we investigate the effect of data preprocessing errors on statistical analysis using a simulated dataset. We simulate a situation where the data generating process follows a Normal distribution with a mean of one and a standard deviation of one. However, due to errors in the data collection and preprocessing stages, the dataset undergoes several transformations. Specifically, we introduce three types of errors: (1) data truncation due to limited instrument memory, (2) alteration of negative values to positive values, and (3) incorrect adjustment of decimal places. Subsequently, we analyze the impact of these errors on the mean estimation and discuss potential steps to identify and mitigate such issues in real-world data analysis."
 thanks: "Code and data are available at: https://github.com/Chay-HyunminPark/A-Case-Study.git" 
+header-includes:
+    - \usepackage{setspace}\doublespacing
 ---
 
 # **Understanding the Impact of Data Cleaning Errors on Statistical Analysis**
